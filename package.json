@@ -1,42 +1,48 @@
 {
-  "name": "bigcreator.dev",
-  "version": "1.0.0",
+  "name": "bigcreator.dev-site",
   "private": true,
-  "description": "bigcreator.dev",
-  "author": "Josafat",
+  "description": "A bigcreator site",
+  "version": "0.1.0",
+  "author": "Josafat Mtz <victorjosafat.castro@gmail.com>",
+  "dependencies": {
+    "gatsby": "^4.19.2",
+    "gatsby-plugin-gatsby-cloud": "^4.19.0",
+    "gatsby-plugin-image": "^2.19.0",
+    "gatsby-plugin-manifest": "^4.19.0",
+    "gatsby-plugin-offline": "^5.19.0",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-sharp": "^4.19.0",
+    "gatsby-source-filesystem": "^4.19.0",
+    "gatsby-transformer-sharp": "^4.19.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gatsby-plugin-postcss": "^5.19.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6"
+  },
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "test": "echo \"Write tests!\" && exit 1"
   },
-  "dependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "firebase": "^9.9.1",
-    "gatsby": "^4.19.0",
-    "gatsby-plugin-google-analytics": "^4.19.0",
-    "gatsby-plugin-image": "^2.19.0",
-    "gatsby-plugin-manifest": "^4.19.0",
-    "gatsby-plugin-react-helmet": "^5.19.0",
-    "gatsby-plugin-sharp": "^4.19.0",
-    "gatsby-plugin-sitemap": "^5.19.0",
-    "gatsby-plugin-styled-components": "^5.19.0",
-    "gatsby-source-filesystem": "^4.19.0",
-    "gatsby-transformer-sharp": "^4.19.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.5"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosafatCMtz/bigcreator.dev"
   },
-  "devDependencies": {
-    "@types/node": "^17.0.45",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "typescript": "^4.7.4"
+  "bugs": {
+    "url": "https://github.com/JosafatCMtz/bigcreator.dev/issues"
   }
 }
