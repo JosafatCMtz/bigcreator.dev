@@ -1,5 +1,5 @@
-import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Bigcreator() {
   return (
@@ -11,5 +11,5 @@ export default function Bigcreator() {
       width={56}
       height={56}
     />
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 
 export default function Footer() {
   return (
@@ -7,5 +7,5 @@ export default function Footer() {
         Made with ❤️ in MX © {new Date().getFullYear()} &middot; Bigcreator
       </p>
     </footer>
-  )
+  );
 }

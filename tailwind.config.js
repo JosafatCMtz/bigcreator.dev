@@ -12,18 +12,18 @@ module.exports = {
       "cyber-yellow": "#FFD51E",
     },
     fontFamily: {
-      'headline': ['Now Bold'],
-      'subheadline': ['"Now Medium"'],
-      'body': ['"Now"'],
+      headline: ["Now Bold"],
+      subheadline: ['"Now Medium"'],
+      body: ['"Now"'],
     },
     extend: {
       backgroundImage: {
-        'hero-image': "url('../images/header-image.png')",
+        "hero-image": "url('../images/header-image.jpeg')",
       },
       colors: {
         cultured: "#F8F8F8",
-      }
-    }
+      },
+    },
   },
   plugins: [],
-}
+};

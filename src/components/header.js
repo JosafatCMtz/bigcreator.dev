@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import Baner from "./baner"
+import React from "react";
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import Baner from "./baner";
 
 const Header = ({ menuLinks }) => (
   <header className="bg-cultured ml-0.5">
@@ -13,7 +13,7 @@ const Header = ({ menuLinks }) => (
         <div>
           <nav>
             <ul className="flex space-x-4">
-              {menuLinks.map(link => (
+              {menuLinks.map((link) => (
                 <li
                   key={link.name}
                   style={{
@@ -21,7 +21,10 @@ const Header = ({ menuLinks }) => (
                     padding: `1rem`,
                   }}
                 >
-                  <Link className="text-smoky-black text-base hover:font-subheadline font-body" to={link.link}>
+                  <Link
+                    className="text-smoky-black text-base hover:font-subheadline font-body"
+                    to={link.link}
+                  >
                     {link.name}
                   </Link>
                 </li>
@@ -32,14 +35,14 @@ const Header = ({ menuLinks }) => (
       </div>
     </div>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
