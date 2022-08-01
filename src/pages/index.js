@@ -5,6 +5,7 @@ import Seo from "../components/seo";
 import HeaderImage from "../components/headerImage";
 import AboutUs from "../components/aboutUs";
 import Services from "../components/services";
+import Team from "../components/team";
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
       <HeaderImage />
       <AboutUs />
       <Services />
+      <Team />
     </div>
   </Layout>
 );

@@ -28,7 +28,19 @@ const content = {
             title: "Mobile App Strategy 📱",
             description: "We devise a roadmap for your mobile app so that the market challenges can be addressed seamlessly."
         }
-
+    },
+    bigcreatorteam: {
+        title: "#bigcreatorteam 👫",
+        ceo: {
+            title: "CEO - Catherine Hernandez",
+            description: "With experience comes perspective",
+            "social_media": "@catherinehndz"
+        },
+        cto: {
+            title: "CTO - Josafat Martinez",
+            description: "There are two types of paths, the easy one and the right one.",
+            "social_media": "@iamjosafatmtz"
+        }
     }
 }
 
