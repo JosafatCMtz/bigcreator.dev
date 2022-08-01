@@ -5,10 +5,10 @@ module.exports = {
     author: `@iamjosafatmtz`,
     siteUrl: `https://www.bigcreator.dev`,
     menuLinks: [
-      { name: "Inicio", link: "#" },
-      { name: "Quienes Somos", link: "#" },
-      { name: "Que Hacemos", link: "#" },
-      { name: "Nuestro Equipo", link: "#" },
+      { name: "About Us 👋🏻", link: "#" },
+      { name: "Services 🧑🏻‍💻", link: "#" },
+      { name: "#bigcreatorteam", link: "#" },
+      { name: "Contact Us ☎️", link: "#" },
     ],
   },
   plugins: [
