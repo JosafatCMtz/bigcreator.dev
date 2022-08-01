@@ -4,8 +4,9 @@ import content from './content'
 import Paragraph from './paragraph'
 
 function AboutUs() {
-    const title = content.about_us.we_love.title
-    const description = content.about_us.we_love.description
+    const title = content.about_us.title
+    const weLovetitle = content.about_us.we_love.title
+    const welovedescription = content.about_us.we_love.description
     const misionTitle = content.about_us.mision.title
     const misionDescription = content.about_us.mision.description
     const visionTitle = content.about_us.vision.title
@@ -17,9 +18,9 @@ function AboutUs() {
                     <StaticImage alt='A bigcreator guy tech image' src="../images/tech-guy.jpeg" className='rounded-lg w-[540px] duration-700 hover:-translate-y-1 hover:translate-x-1' />
                 </div>
                 <div className='basis-1/2 p-6'>
-                    <h2 className='text-6xl font-headline'>About Us 👋🏻</h2>
+                    <h2 className='text-6xl font-headline'>{title}</h2>
                     <div className='basis-1/2 pt-6'>
-                        <Paragraph title={title} description={description} />
+                        <Paragraph title={weLovetitle} description={welovedescription} />
                     </div>
                     <div className='flex flex-row pt-6'>
                         <div className='basis-1/2 mr-6'>
