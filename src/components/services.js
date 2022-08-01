@@ -13,7 +13,7 @@ export default function Services() {
     const mobileAppStrategytTtle = content.services.mobile_app_strategy.title
     const mobileAppStrategyDescription = content.services.mobile_app_strategy.description
     return (
-        <div className="bg-coltured text-smoky-black">
+        <div id='services' className="bg-coltured text-smoky-black">
             <div className='flex flex-row p-6'>
                 <div className='basis-1/2 p-6'>
                     <h2 className='text-6xl font-headline'>{title}</h2>
@@ -29,7 +29,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='basis-1/2 flex items-center justify-center'>
+                <div className='basis-1/2 flex items-center justify-center pt-6'>
                     <StaticImage alt='A bigcreator guy tech image' src="../images/services-guys.jpeg" className='rounded-lg h-[360px] w-[540px] duration-700 hover:translate-y-1 hover:translate-x-1' />
                 </div>
             </div>

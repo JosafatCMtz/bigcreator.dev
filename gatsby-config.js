@@ -5,9 +5,9 @@ module.exports = {
     author: `@iamjosafatmtz`,
     siteUrl: `https://www.bigcreator.dev`,
     menuLinks: [
-      { name: "About Us 👋🏻", link: "#" },
-      { name: "Services 🧑🏻‍💻", link: "#" },
-      { name: "#bigcreatorteam", link: "#" },
+      { name: "About Us 👋🏻", link: "#about" },
+      { name: "Services 🧑🏻‍💻", link: "#services" },
+      { name: "#bigcreatorteam", link: "#team" },
       { name: "Contact Us ☎️", link: "#" },
     ],
   },

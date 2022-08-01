@@ -12,7 +12,7 @@ function AboutUs() {
     const visionTitle = content.about_us.vision.title
     const visionDescription = content.about_us.vision.description
     return (
-        <div className="bg-cyber-yellow text-smoky-black">
+        <div id='about' className="bg-cyber-yellow text-smoky-black">
             <div className='flex flex-row p-6'>
                 <div className='basis-1/2 flex items-center justify-center'>
                     <StaticImage alt='A bigcreator guy tech image' src="../images/tech-guy.jpeg" className='rounded-lg w-[540px] duration-700 hover:-translate-y-1 hover:translate-x-1' />
