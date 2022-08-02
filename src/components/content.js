@@ -44,6 +44,13 @@ const content = {
     },
     contact: {
         title: "Contact Us ☎️"
+    },
+    footer: {
+        links: {
+            whatsapp: "https://api.whatsapp.com/send?phone=528442242173&text=Hola%2C%20que%20tal%3F%20Quiero%20pedir%20*info*%2C%20me%20ayudas%20*bigcreator.dev*",
+            facebook: "https://www.facebook.com/josafatcmtz",
+            twitter: "https://twitter.com/iamjosafatmtz",
+        }
     }
 }
 
