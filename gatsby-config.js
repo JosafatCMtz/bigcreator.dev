@@ -8,7 +8,7 @@ module.exports = {
       { name: "About Us 👋🏻", link: "#about" },
       { name: "Services 🧑🏻‍💻", link: "#services" },
       { name: "#bigcreatorteam", link: "#team" },
-      { name: "Contact Us ☎️", link: "#" },
+      { name: "Contact Us ☎️", link: "#contact" },
     ],
   },
   plugins: [

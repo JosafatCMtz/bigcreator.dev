@@ -41,6 +41,9 @@ const content = {
             description: "There are two types of paths, the easy one and the right one.",
             "social_media": "@iamjosafatmtz"
         }
+    },
+    contact: {
+        title: "Contact Us ☎️"
     }
 }
 

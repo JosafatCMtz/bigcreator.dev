@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Josafat Mtz <victorjosafat.castro@gmail.com>",
   "dependencies": {
+    "@formspree/react": "^2.3.0",
     "gatsby": "^4.19.2",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-image": "^2.19.0",

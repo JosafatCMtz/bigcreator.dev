@@ -6,6 +6,7 @@ import HeaderImage from "../components/headerImage";
 import AboutUs from "../components/aboutUs";
 import Services from "../components/services";
 import Team from "../components/team";
+import Contact from "../components/contact";
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
       <AboutUs />
       <Services />
       <Team />
+      <Contact />
     </div>
   </Layout>
 );
